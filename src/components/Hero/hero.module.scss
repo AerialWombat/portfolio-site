@@ -1,7 +1,7 @@
 @import "../../pages/index.scss";
 
 .container {
-  height: 80vh;
+  height: 100vh;
   width: auto;
   background: darkslategrey url(../../assets/images/hero2-dark.jpg);
   background-attachment: fixed;
@@ -89,6 +89,7 @@
 
 @media screen and (min-width: 760px) {
   .heroContent {
+    height: 75%;
     padding-left: 2rem;
     align-items: flex-start;
     .title {
@@ -103,6 +104,42 @@
       padding: 0 25px;
       height: 35px;
       font-size: 0.9rem;
+    }
+  }
+
+  .contactInfo {
+    ul {
+      padding-left: 2rem;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: flex-start;
+      justify-content: flex-start;
+      @include setAnimateDelay(fadeInFromTop, 2s);
+
+      li {
+        margin: 0.5rem 0;
+        display: flex;
+        align-items: center;
+      }
+
+      a {
+        color: #eee;
+        text-shadow: 2px 2px 1px #222;
+
+        .contactLabel {
+          position: relative;
+          bottom: 5px;
+          border-bottom: 1px solid transparent;
+          margin-left: 1.5rem;
+          display: inline-block;
+          transition: 0.25s ease border-bottom;
+
+          &:hover {
+            border-color: $accent-color;
+          }
+        }
+      }
     }
   }
 }

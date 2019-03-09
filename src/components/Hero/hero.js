@@ -33,21 +33,20 @@ const Hero = () => {
       <div className={styles.contactInfo}>
         <ul>
           <li>
-            <a href="https://www.google.com/maps?hl=en&q=richmond,+va">
+            <a
+              href="https://www.google.com/maps?hl=en&q=richmond,+va"
+              rel="noopener noreferrer"
+            >
               <IconContext.Provider value={{ size: "1.5em" }}>
-                <div>
-                  <FaMapMarkerAlt />
-                </div>
+                <FaMapMarkerAlt />
               </IconContext.Provider>
               <span className={styles.contactLabel}>Richmond, VA</span>
             </a>
           </li>
           <li>
-            <a href="https://github.com/AerialWombat">
+            <a href="https://github.com/AerialWombat" rel="noopener noreferrer">
               <IconContext.Provider value={{ size: "1.5em" }}>
-                <div>
-                  <FaGithub />
-                </div>
+                <FaGithub />
               </IconContext.Provider>
               <span className={styles.contactLabel}>AerialWombat</span>
             </a>
@@ -55,9 +54,7 @@ const Hero = () => {
           <li>
             <a href="tel:5402731369">
               <IconContext.Provider value={{ size: "1.5em" }}>
-                <div>
-                  <FaPhone />
-                </div>
+                <FaPhone />
               </IconContext.Provider>
               <span className={styles.contactLabel}>+1 (540) 273-1369</span>
             </a>
@@ -65,9 +62,7 @@ const Hero = () => {
           <li>
             <a href="mailto:adrianzhan@gmail.com">
               <IconContext.Provider value={{ size: "1.5em" }}>
-                <div>
-                  <FaEnvelope />
-                </div>
+                <FaEnvelope />
               </IconContext.Provider>
               <span className={styles.contactLabel}>adrianzhan@gmail.com</span>
             </a>
