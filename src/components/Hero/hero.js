@@ -35,6 +35,7 @@ const Hero = () => {
           <li>
             <a
               href="https://www.google.com/maps?hl=en&q=richmond,+va"
+              target="#"
               rel="noopener noreferrer"
             >
               <IconContext.Provider value={{ size: "1.5em" }}>
@@ -44,7 +45,11 @@ const Hero = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/AerialWombat" rel="noopener noreferrer">
+            <a
+              href="https://github.com/AerialWombat"
+              target="#"
+              rel="noopener noreferrer"
+            >
               <IconContext.Provider value={{ size: "1.5em" }}>
                 <FaGithub />
               </IconContext.Provider>
