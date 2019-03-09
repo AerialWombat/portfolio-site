@@ -1,16 +1,5 @@
 @import "../../pages/index.scss";
 
-@keyframes fadeInFromTop {
-  from {
-    transform: translateY(-5%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
 .container {
   position: absolute;
   top: 0;
@@ -24,12 +13,7 @@
 }
 
 .navbar {
-  transform: translateY(-5%);
-  opacity: 0;
-  animation-duration: 0.75s;
-  animation-name: fadeInFromTop;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
+  @include setAnimateDelay(fadeInFromTop, 2s);
   ul {
     display: flex;
   }
