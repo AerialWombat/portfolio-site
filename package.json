@@ -14,8 +14,11 @@
   },
   "dependencies": {
     "gatsby": "^2.1.27",
+    "gatsby-plugin-sass": "^2.0.10",
+    "node-sass": "^4.11.0",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-icons": "^3.5.0"
   },
   "devDependencies": {
     "prettier": "^1.16.4"

@@ -1,0 +1,41 @@
+/* Global Styles
+======================================*/
+$font-stack: "Open Sans", Arial, Helvetica, sans-serif;
+$accent-color: #d27d00;
+$accent-color-light: #ffad40;
+$accent-color-dark: #9b5000;
+$light-grey: #f9f8fd;
+$dark-grey: #e0dfe3;
+
+/* CSS Reset
+======================================*/
+* {
+  //   border: 1px solid orangered;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  // overflow: hidden;
+}
+
+body {
+  font-family: $font-stack;
+  line-height: 1.4;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  box-shadow: none;
+  outline: #000 dotted 2px;
+  outline-offset: 0.05em;
+}
+
+/* Layout
+======================================*/
