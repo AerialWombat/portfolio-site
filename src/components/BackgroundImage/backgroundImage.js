@@ -9,7 +9,7 @@ const BackgroundSection = ({ children, className }) => (
       query {
         desktop: file(relativePath: { eq: "hero2-dark.jpg" }) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 1080) {
+            fluid(quality: 100, maxWidth: 5472) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
@@ -21,7 +21,7 @@ const BackgroundSection = ({ children, className }) => (
       const imageData = data.desktop.childImageSharp.fluid
       return (
         <BackgroundImage
-          Tag="section"
+          Tag="div"
           className={className}
           fluid={imageData}
           backgroundColor={`darkslategrey`}
