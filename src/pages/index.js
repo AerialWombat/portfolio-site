@@ -1,12 +1,14 @@
 import React from "react"
 import Hero from "../components/Hero/hero"
+import BackgroundSection from "../components/BackgroundImage/backgroundImage"
 
 import "./index.scss"
 
 export default () => (
   <div>
-    <Hero />
-
+    <BackgroundSection>
+      <Hero />
+    </BackgroundSection>
     <p>
       Well, the way they make shows is, they make one show. That show's called a
       pilot. Then they show that show to the people who make shows, and on the
@@ -14,7 +16,6 @@ export default () => (
       Some pilots get picked and become television programs. Some don't, become
       nothing. She starred in one of the ones that became nothing.{" "}
     </p>
-
     <p>
       Normally, both your asses would be dead as fucking fried chicken, but you
       happen to pull this shit while I'm in a transitional period so I don't
@@ -22,7 +23,6 @@ export default () => (
       belong to me. Besides, I've already been through too much shit this
       morning over this case to hand it over to your dumb ass.{" "}
     </p>
-
     <p>
       My money's in that office, right? If she start giving me some bullshit
       about it ain't there, and we got to go someplace else and get it, I'm
@@ -32,7 +32,6 @@ export default () => (
       we go in there, and that nigga Winston or anybody else is in there, you
       the first motherfucker to get shot. You understand?{" "}
     </p>
-
     <p>
       Now that we know who you are, I know who I am. I'm not a mistake! It all
       makes sense! In a comic, you know how you can tell who the arch-villain's
@@ -40,7 +39,6 @@ export default () => (
       friends, like you and me! I should've known way back when... You know why,
       David? Because of the kids. They called me Mr Glass.{" "}
     </p>
-
     <p>
       You think water moves fast? You should see ice. It moves like it has a
       mind. Like it knows it killed the world once and got a taste for murder.
@@ -50,7 +48,6 @@ export default () => (
       breaking now. We said we'd say it was the snow that killed the other two,
       but it wasn't. Nature is lethal but it doesn't hold a candle to man.{" "}
     </p>
-
     <p>
       My money's in that office, right? If she start giving me some bullshit
       about it ain't there, and we got to go someplace else and get it, I'm
@@ -60,7 +57,6 @@ export default () => (
       we go in there, and that nigga Winston or anybody else is in there, you
       the first motherfucker to get shot. You understand?{" "}
     </p>
-
     <p>
       You think water moves fast? You should see ice. It moves like it has a
       mind. Like it knows it killed the world once and got a taste for murder.

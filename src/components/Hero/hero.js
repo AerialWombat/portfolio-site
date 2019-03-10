@@ -1,5 +1,6 @@
 import React from "react"
-import Header from "../Header/header"
+import { graphql, StaticQuery } from "gatsby"
+import BackgroundImage from "gatsby-background-image"
 import {
   FaMapMarkerAlt,
   FaLinkedinIn,
@@ -8,6 +9,7 @@ import {
   FaEnvelope,
 } from "react-icons/fa"
 import { IconContext } from "react-icons"
+import Header from "../Header/header"
 
 import styles from "./hero.module.scss"
 

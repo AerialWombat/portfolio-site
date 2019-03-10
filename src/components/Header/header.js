@@ -12,9 +12,6 @@ const Header = () => {
           <li>
             <a href="#">PROJECTS</a>
           </li>
-          {/*<li>
-            <a href="#">THING 3</a>
-          </li>*/}
         </ul>
       </nav>
     </header>
