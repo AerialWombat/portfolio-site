@@ -27,6 +27,9 @@ $dark-grey: #e0dfe3;
   animation-delay: $delay;
 }
 
+.fixedBackground::after {
+  background-attachment: fixed;
+}
 /* CSS Reset
 ======================================*/
 * {

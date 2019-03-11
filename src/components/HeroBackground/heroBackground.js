@@ -1,9 +1,8 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
-
 import BackgroundImage from "gatsby-background-image"
 
-const BackgroundSection = ({ children, className }) => (
+const HeroBackground = ({ children, className }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -33,4 +32,4 @@ const BackgroundSection = ({ children, className }) => (
   />
 )
 
-export default BackgroundSection
+export default HeroBackground

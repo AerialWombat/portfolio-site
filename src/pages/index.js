@@ -1,14 +1,14 @@
 import React from "react"
 import Hero from "../components/Hero/hero"
-import BackgroundSection from "../components/BackgroundImage/backgroundImage"
-
+import HeroBackground from "../components/HeroBackground/heroBackground"
 import "./index.scss"
 
 export default () => (
   <div>
-    <BackgroundSection>
+    <HeroBackground className="fixedBackground">
       <Hero />
-    </BackgroundSection>
+    </HeroBackground>
+
     <p>
       Well, the way they make shows is, they make one show. That show's called a
       pilot. Then they show that show to the people who make shows, and on the
