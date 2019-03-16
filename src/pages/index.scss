@@ -1,6 +1,9 @@
 /* Global Styles
 ======================================*/
 $font-stack: "Open Sans", Arial, Helvetica, sans-serif;
+$dark-font: #281a17;
+// $primary-header: ;
+// $secondary-header: ;
 $accent-color: #d27d00;
 $accent-color-light: #ffad40;
 $accent-color-dark: #9b5000;
@@ -62,3 +65,7 @@ textarea:focus {
 
 /* Layout
 ======================================*/
+
+main {
+  background-color: $light-grey;
+}
