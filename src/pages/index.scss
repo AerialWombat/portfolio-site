@@ -63,9 +63,10 @@ textarea:focus {
   outline-offset: 0.05em;
 }
 
-/* Layout
+/* General
 ======================================*/
 
 main {
+  padding: 1.5rem 2rem;
   background-color: $light-grey;
 }

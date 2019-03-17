@@ -1,18 +1,7 @@
 import React from "react"
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaGit,
-  FaJsSquare,
-  FaReact,
-  FaSass,
-  FaNpm,
-} from "react-icons/fa"
-import { IconContext } from "react-icons"
+import SkillIcon from "../SkillIcon/skillIcon"
 
 import styles from "./about.module.scss"
-
-const iconSize = "2.5em"
 
 const About = () => {
   return (
@@ -29,57 +18,22 @@ const About = () => {
       </article>
       <article>
         <h1 className={styles.header}>SKILLS</h1>
-
+        <p className={styles.subtitle}>
+          I have experience with the following tools and technologies:
+        </p>
         <div className={styles.skillIcons}>
-          <div className={styles.icon}>
-            <IconContext.Provider value={{ size: iconSize }}>
-              <FaHtml5 />
-              <span>HTML5</span>
-            </IconContext.Provider>
-          </div>
-
-          <div className={styles.icon}>
-            <IconContext.Provider value={{ size: iconSize }}>
-              <FaCss3Alt />
-              <span>CSS3</span>
-            </IconContext.Provider>
-          </div>
-
-          <div className={styles.icon}>
-            <IconContext.Provider value={{ size: iconSize }}>
-              <FaJsSquare />
-              <span>Javascript</span>
-            </IconContext.Provider>
-          </div>
-
-          <div className={styles.icon}>
-            <IconContext.Provider value={{ size: iconSize }}>
-              <FaReact />
-              <span>React</span>
-            </IconContext.Provider>
-          </div>
-
-          <div className={styles.icon}>
-            <IconContext.Provider value={{ size: iconSize }}>
-              <FaSass />
-              <span>SASS/SCSS</span>
-            </IconContext.Provider>
-          </div>
-
-          <div className={styles.icon}>
-            <IconContext.Provider value={{ size: iconSize }}>
-              <FaGit />
-              <span>Git</span>
-            </IconContext.Provider>
-          </div>
-
-          <div className={styles.icon}>
-            <IconContext.Provider value={{ size: iconSize }}>
-              <FaNpm />
-              <span>npm</span>
-            </IconContext.Provider>
-          </div>
+          <SkillIcon iconType="html5" iconSize="2.5em" />
+          <SkillIcon iconType="css3" iconSize="2.5em" />
+          <SkillIcon iconType="javascript" iconSize="2.5em" />
+          <SkillIcon iconType="react" iconSize="2.5em" />
+          <SkillIcon iconType="sass" iconSize="2.5em" />
+          <SkillIcon iconType="git" iconSize="2.5em" />
+          <SkillIcon iconType="npm" iconSize="2.5em" />
         </div>
+        <p className={styles.learning}>
+          Currently learning&nbsp;
+          <span> React</span>
+        </p>
       </article>
     </section>
   )
