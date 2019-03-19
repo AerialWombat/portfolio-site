@@ -13,7 +13,6 @@ import {
 import { IconContext } from "react-icons"
 
 import styles from "./preview.module.scss"
-import { Link } from "gatsby"
 
 const icons = {
   html5: FaHtml5,

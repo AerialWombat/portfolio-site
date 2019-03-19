@@ -67,6 +67,12 @@
       margin: 0 1rem 1rem 0;
       a {
         border-bottom: dotted 2px $accent-color;
+        transition: all 0.25s ease;
+
+        &:hover {
+          font-weight: bold;
+          border-bottom: solid 2px $accent-color;
+        }
       }
     }
   }
