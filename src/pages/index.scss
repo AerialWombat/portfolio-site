@@ -59,10 +59,42 @@ textarea:focus {
   outline-offset: 0.05em;
 }
 
+/* Scrollbar Colors
+======================================*/
+
+* {
+  scrollbar-color: $accent-color $light-grey;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $accent-color;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $accent-color;
+}
+
 /* General
 ======================================*/
 
 main {
   padding: 1.5rem 2rem;
   background-color: $light-grey;
+}
+
+@media screen and (min-width: 760px) {
+  main {
+    padding: 1.5rem 4rem;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  main {
+    padding: 1.5rem 6rem;
+  }
 }
