@@ -38,6 +38,8 @@ const getIconText = iconType => {
       return "SASS/SCSS"
     case "npm":
       return "npm"
+    default:
+      break
   }
 }
 
