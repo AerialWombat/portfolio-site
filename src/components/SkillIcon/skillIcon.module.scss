@@ -1,6 +1,7 @@
 @import "../../pages/index.scss";
 
 .icon {
+  position: relative;
   margin: 1rem 0.75rem;
   display: flex;
   flex-flow: column nowrap;
