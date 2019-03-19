@@ -1,0 +1,102 @@
+@import "../../pages/index.scss";
+
+.container {
+  list-style: none;
+  margin: 2rem auto;
+
+  .projectImg {
+    position: relative;
+
+    &:before {
+      content: "";
+      top: 0;
+      left: 0;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(255, 173, 64, 0.3);
+      z-index: 98;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+
+    &:hover {
+      &:before {
+        opacity: 0;
+      }
+    }
+
+    div:first-child {
+      max-height: 400px;
+    }
+
+    .techList {
+      list-style: inherit;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 0.5rem;
+      height: 2.5em;
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+
+      color: whitesmoke;
+      background-color: rgba(255, 173, 64, 0.7);
+
+      z-index: 99;
+
+      li {
+        padding: 0 0.25rem;
+        color: $light-grey;
+      }
+    }
+  }
+
+  .title {
+    margin: 1rem auto;
+  }
+
+  .projectDetails {
+    list-style: none;
+    display: flex;
+
+    li {
+      margin: 0 1rem 1rem 0;
+      a {
+        border-bottom: dotted 2px $accent-color;
+      }
+    }
+  }
+
+  .description {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .container {
+    .projectImg {
+      .techList {
+        height: 3rem;
+        padding: 0.5rem;
+        padding-left: 2rem;
+        width: auto;
+        justify-content: flex-end;
+
+        li {
+          padding: 0 0.5rem;
+        }
+
+        svg {
+          height: 2em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1140px) {
+}
