@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 import Preview from "../Preview/preview"
+import Fade from "react-reveal/Fade"
 
 import styles from "./showcase.module.scss"
 import "./projects"
@@ -31,7 +32,9 @@ const Showcase = () => (
       return (
         <section className={styles.container}>
           <article>
-            <h1 className={styles.header}>PROJECTS</h1>
+            <Fade top duration={1000} distance="50%">
+              <h1 className={styles.header}>PROJECTS</h1>
+            </Fade>
             <ul>
               {thumbnailDataEdges.map(imgData => {
                 const project = projects.find(
