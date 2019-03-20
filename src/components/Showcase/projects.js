@@ -20,7 +20,7 @@ const projects = [
       "github",
     ],
     description:
-      "A responsive, single-page web application using the Dark Sky API and geocodio API. Get the current weather for any US city and a forecase for the next 3 days.",
+      "A responsive, single-page web application using the Dark Sky API and geocodio API. Get the current weather for any US city and a forecast for the next 3 days.",
     imgPath: "weather-now",
     repoPath: "https://github.com/AerialWombat/weather-now",
     demoPath: "https://aerialwombat.github.io/weather-now/",
