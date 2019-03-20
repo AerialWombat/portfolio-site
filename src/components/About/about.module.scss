@@ -2,7 +2,7 @@
 
 .container {
   article {
-    margin-top: 4rem;
+    margin: 5rem auto;
     .header {
       display: flex;
       justify-content: center;
@@ -44,9 +44,10 @@
 
 @media screen and (min-width: 760px) {
   .container {
-    padding: 1.5rem 7rem;
+    padding: 1.5rem 6rem;
 
     article {
+      margin: 7rem auto;
       .header {
         font-size: 2.5rem;
         margin-bottom: 3rem;
@@ -84,6 +85,7 @@
     padding: 1.5rem 12rem;
 
     article {
+      margin: 8rem auto;
       .header {
         font-size: 3rem;
       }
