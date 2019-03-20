@@ -36,7 +36,7 @@ const Preview = ({
 }) => {
   return (
     <li className={styles.container}>
-      <Fade left duration={1500} distance="25%">
+      <Fade left duration={1000} distance="25%">
         <div className={styles.projectImg}>
           <Img fluid={fluidImg} alt="Screenshot of project" />
           <ul className={styles.techList}>
@@ -53,7 +53,7 @@ const Preview = ({
           </ul>
         </div>
       </Fade>
-      <Fade top delay={1000} duration={1500} distance="50%">
+      <Fade top delay={1000} duration={500} distance="50%">
         <h1 className={styles.title}>{name}</h1>
         <ul className={styles.projectDetails}>
           <li>
