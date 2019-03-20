@@ -5,6 +5,7 @@ module.exports = {
     description: `Adrian Zhan's personal website`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
