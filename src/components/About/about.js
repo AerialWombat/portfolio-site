@@ -11,11 +11,12 @@ const About = () => {
         <Fade top duration={1000} distance="50%">
           <h1 className={styles.header}>ABOUT ME</h1>
           <p>
-            Now that there is the Tec-9, a crappy spray gun from South Miami.
-            This gun is advertised as the most popular gun in American crime. Do
-            you believe that shit? It actually says that in the little book that
-            comes with it: the most popular gun in American crime. Like they're
-            actually proud of that shit.
+            Hi! I'm a self-taught web developer from Richmond, Virginia. I'm
+            passionate in learning about the latest technologies in web
+            development. I enjoy creating sleek, responsive, and mobile websites
+            and web applications to improve the lives of users. Currently, I am
+            focusing on front-end development, with a goal to become a
+            full-stack developer. Please check out some of my projects below.
           </p>
         </Fade>
       </article>
