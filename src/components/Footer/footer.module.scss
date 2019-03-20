@@ -1,0 +1,73 @@
+@import "../../pages/index.scss";
+
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #eee;
+  background-color: $accent-color-dark;
+
+  .header {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+
+  .emailButton {
+    margin: 1.5rem;
+    padding: 0 15px;
+    height: 35px;
+    border: 2px solid $dark-font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $dark-font;
+
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.25s ease all;
+
+    &:hover {
+      background-color: $dark-font;
+      color: #eee;
+      text-shadow: none;
+    }
+  }
+
+  .mediaLinks {
+    margin-bottom: 1rem;
+  }
+
+  .footerLink {
+    margin: 1rem;
+    color: rgba(238, 238, 238, 1);
+    font-weight: bold;
+    transition: all 0.25s ease;
+
+    &:hover {
+      color: rgba(238, 238, 238, 0.7);
+    }
+  }
+
+  .copyright {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .container {
+    .header {
+      letter-spacing: 1px;
+      font-size: 3rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1140px) {
+}
