@@ -6,7 +6,7 @@ import styles from "./about.module.scss"
 
 const About = () => {
   return (
-    <section className={styles.container}>
+    <section name="about" className={styles.container}>
       <article>
         <Fade top duration={1000} distance="50%">
           <h1 className={styles.header}>ABOUT ME</h1>

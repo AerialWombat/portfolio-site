@@ -30,7 +30,7 @@ const Showcase = () => (
     render={data => {
       const thumbnailDataEdges = data.thumbnailImgs.edges
       return (
-        <section className={styles.container}>
+        <section name="projects" className={styles.container}>
           <article>
             <Fade top duration={1000} distance="50%">
               <h1 className={styles.header}>PROJECTS</h1>

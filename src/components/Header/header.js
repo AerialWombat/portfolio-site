@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./header.module.scss"
+import { Link, animateScroll } from "react-scroll"
 
 const Header = () => {
   return (
@@ -7,10 +8,20 @@ const Header = () => {
       <nav className={styles.navbar}>
         <ul>
           <li>
-            <a href="#">ABOUT</a>
+            <Link to="about" spy={true} smooth={true} offset={0} duration={500}>
+              ABOUT
+            </Link>{" "}
           </li>
           <li>
-            <a href="#">PROJECTS</a>
+            <Link
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              PROJECTS
+            </Link>
           </li>
         </ul>
       </nav>
