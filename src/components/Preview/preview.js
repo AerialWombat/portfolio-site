@@ -12,7 +12,6 @@ import {
 } from "react-icons/fa"
 import { IconContext } from "react-icons"
 import Fade from "react-reveal/Fade"
-import Reveal from "react-reveal/Reveal"
 
 import styles from "./preview.module.scss"
 
