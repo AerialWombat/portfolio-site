@@ -1,6 +1,7 @@
 /* Global Styles
 ======================================*/
-$font-stack: "Open Sans", Arial, Helvetica, sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Cabin:400,700|Roboto+Condensed:400,700");
+$font-stack: "Roboto Condensed", Arial, Helvetica, sans-serif;
 $dark-font: #281a17;
 $accent-color: #d27d00;
 $accent-color-light: #ffad40;
@@ -47,6 +48,10 @@ body {
 a {
   color: #333;
   text-decoration: none;
+}
+
+p {
+  font-family: "Cabin", Arial, Helvetica, sans-serif;
 }
 
 a:focus,
