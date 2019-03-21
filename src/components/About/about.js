@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section name="about" className={styles.container}>
       <article>
-        <Fade top duration={1000} distance="50%">
+        <Fade top duration={1000} distance="10%">
           <h1 className={styles.header}>ABOUT ME</h1>
           <p>
             Hi! I'm a self-taught web developer from Richmond, Virginia. I'm
@@ -21,7 +21,7 @@ const About = () => {
         </Fade>
       </article>
       <article>
-        <Fade top duration={1000} distance="50%">
+        <Fade top duration={1000} distance="10%">
           <h1 className={styles.header}>SKILLS</h1>
           <p className={styles.subtitle}>
             I have experience with the following tools and technologies:

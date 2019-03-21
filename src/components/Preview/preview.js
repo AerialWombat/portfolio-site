@@ -53,7 +53,7 @@ const Preview = ({
           </ul>
         </div>
       </Fade>
-      <Fade top delay={500} duration={500} distance="50%">
+      <Fade top delay={30 % 0} duration={500} distance="10%">
         <h1 className={styles.title}>{name}</h1>
         <ul className={styles.projectDetails}>
           <li>

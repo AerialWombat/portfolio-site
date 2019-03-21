@@ -32,7 +32,7 @@ const Showcase = () => (
       return (
         <section name="projects" className={styles.container}>
           <article>
-            <Fade top duration={1000} distance="50%">
+            <Fade top duration={1000} distance="10%">
               <h1 className={styles.header}>PROJECTS</h1>
             </Fade>
             <ul>
