@@ -29,6 +29,10 @@ $dark-grey: #e0dfe3;
   animation-delay: $delay;
 }
 
+.fixedBackground::before {
+  background-attachment: before;
+}
+
 .fixedBackground::after {
   background-attachment: fixed;
 }
