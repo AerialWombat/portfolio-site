@@ -38,7 +38,7 @@ const About = () => {
           </div>
           <p className={styles.learning}>
             Currently learning&nbsp;
-            <span> Node.js & Express</span>
+            <span> Node.js, Express, & PostgreSQL</span>
           </p>
         </Fade>
       </article>
