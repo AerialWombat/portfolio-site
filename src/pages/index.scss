@@ -30,7 +30,7 @@ $dark-grey: #e0dfe3;
 }
 
 .fixedBackground::before {
-  background-attachment: before;
+  background-attachment: fixed;
 }
 
 .fixedBackground::after {
