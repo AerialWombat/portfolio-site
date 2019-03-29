@@ -35,6 +35,9 @@ const About = () => {
             <SkillIcon iconType="sass" iconSize="2.5em" />
             <SkillIcon iconType="git" iconSize="2.5em" />
             <SkillIcon iconType="npm" iconSize="2.5em" />
+            <SkillIcon iconType="node" iconSize="2.5em" />
+            <SkillIcon iconType="express" iconSize="2.5em" />
+            <SkillIcon iconType="postgre" iconSize="2.5em" />
           </div>
           <p className={styles.learning}>
             Currently learning&nbsp;
