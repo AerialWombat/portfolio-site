@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./header.module.scss"
-import { Link, animateScroll } from "react-scroll"
+import { Link } from "react-scroll"
 
 const Header = () => {
   return (

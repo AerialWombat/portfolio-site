@@ -41,7 +41,7 @@ const projects = [
     ],
     description:
       "A mobile-friendly, full-stack application with a front-end built using ReactJS and an back-end RESTful API built using Node.js and Express linked to a PostgreSQL database. Allows users to shorten URLs as well as register and login to view their previously created URLs.",
-    imgPath: "brevez",
+    imgPath: "breve",
     repoPath: "https://github.com/AerialWombat/url-shortener",
     demoPath: "https://breve.netlify.com/",
   },
