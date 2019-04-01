@@ -4,6 +4,7 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaGit,
+  FaGithubSquare,
   FaJsSquare,
   FaReact,
   FaSass,
