@@ -25,6 +25,26 @@ const projects = [
     repoPath: "https://github.com/AerialWombat/weather-now",
     demoPath: "https://aerialwombat.github.io/weather-now/",
   },
+  {
+    name: "breve",
+    technologies: [
+      "html5",
+      "css3",
+      "sass",
+      "javascript",
+      "react",
+      "node",
+      "express",
+      "postgre",
+      "git",
+      "github",
+    ],
+    description:
+      "A mobile-friendly, full-stack application with a front-end built using ReactJS and an back-end RESTful API built using Node.js and Express linked to a PostgreSQL database. Allows users to shorten URLs as well as register and login to view their previously created URLs.",
+    imgPath: "brevez",
+    repoPath: "https://github.com/AerialWombat/url-shortener",
+    demoPath: "https://breve.netlify.com/",
+  },
 ]
 
 export default projects
