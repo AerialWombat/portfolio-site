@@ -13,6 +13,7 @@ export default () => (
     <Helmet htmlAttributes={{ lang: "en" }}>
       <meta charSet="utf-8" />
       <title>Adrian Zhan</title>
+      <meta name="description" content="Personal website and web development portfolio for Adrian Zhan" />
     </Helmet>
     <HeroBackground className="fixedBackground">
       <Hero />
