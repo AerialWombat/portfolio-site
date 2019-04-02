@@ -29,7 +29,7 @@ const Hero = () => {
           rel="noopener noreferrer"
           aria-label="View a copy of my resume"
         >
-          > RESUME
+          RESUME
         </a>
       </div>
       <div className={styles.contactInfo}>
