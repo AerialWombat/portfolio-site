@@ -27,8 +27,9 @@ const Hero = () => {
           target="#"
           href="https://drive.google.com/open?id=1fdRQ7NwkWkTfbtKXEURG8gXG7hbC8Bhp"
           rel="noopener noreferrer"
+          aria-label="View a copy of my resume"
         >
-          RESUME
+          > RESUME
         </a>
       </div>
       <div className={styles.contactInfo}>
@@ -38,6 +39,7 @@ const Hero = () => {
               href="https://www.google.com/maps?hl=en&q=richmond,+va"
               target="#"
               rel="noopener noreferrer"
+              aria-label="View Richmond, VA on Google Maps"
             >
               <IconContext.Provider value={{ size: "1.5em" }}>
                 <FaMapMarkerAlt />
@@ -50,6 +52,7 @@ const Hero = () => {
               href="https://github.com/AerialWombat"
               target="#"
               rel="noopener noreferrer"
+              aria-label="View my work on Github"
             >
               <IconContext.Provider value={{ size: "1.5em" }}>
                 <FaGithub />
@@ -58,7 +61,7 @@ const Hero = () => {
             </a>
           </li>
           <li>
-            <a href="tel:5402731369">
+            <a href="tel:5402731369" aria-label="Call me on my mobile phone">
               <IconContext.Provider value={{ size: "1.5em" }}>
                 <FaPhone />
               </IconContext.Provider>
@@ -66,7 +69,10 @@ const Hero = () => {
             </a>
           </li>
           <li>
-            <a href="mailto:adrianzhan@gmail.com">
+            <a
+              href="mailto:adrianzhan@gmail.com"
+              aria-label="Send me an e-mail"
+            >
               <IconContext.Provider value={{ size: "1.5em" }}>
                 <FaEnvelope />
               </IconContext.Provider>
