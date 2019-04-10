@@ -19,12 +19,7 @@ const HeroBackground = ({ children, className }) => (
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid
       return (
-        <BackgroundImage
-          Tag="div"
-          className={className}
-          fluid={imageData}
-          backgroundColor={`darkslategrey`}
-        >
+        <BackgroundImage Tag="div" className={className} fluid={imageData}>
           {children}
         </BackgroundImage>
       )
