@@ -86,7 +86,7 @@
 /* Media Queries
 ======================================*/
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 760px) and (min-height: 800px) {
   .heroContent {
     height: 75%;
     padding-left: 2rem;
