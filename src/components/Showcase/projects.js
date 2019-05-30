@@ -45,6 +45,26 @@ const projects = [
     repoPath: "https://github.com/AerialWombat/url-shortener",
     demoPath: "https://breve.netlify.com/",
   },
+  {
+    name: "Open Times",
+    technologies: [
+      "html5",
+      "css3",
+      "sass",
+      "javascript",
+      "react",
+      "node",
+      "express",
+      "postgre",
+      "git",
+      "github",
+    ],
+    description:
+      "A mobile friendly, full-stack application with front-end routing that allows users to create groups, invite others, and find common free times with a generated heat-mapped schedule.",
+    imgPath: "open-times",
+    repoPath: "https://github.com/AerialWombat/open-times",
+    demoPath: "https://opentimes.netlify.com/",
+  },
 ]
 
 export default projects
