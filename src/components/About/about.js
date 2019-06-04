@@ -11,12 +11,12 @@ const About = () => {
         <Fade top duration={1000} distance="10%">
           <h1 className={styles.header}>ABOUT ME</h1>
           <p>
-            Hi! I'm a self-taught web developer from Richmond, Virginia. I'm
-            passionate in learning about the latest technologies in web
-            development. I enjoy creating sleek, responsive, and mobile websites
-            and web applications to improve the lives of users. Currently, I am
-            focusing on front-end development, with a goal to become a
-            full-stack developer. Please check out some of my projects below.
+            Hi! I'm a web developer from Richmond, Virginia. I'm passionate in
+            learning about the latest technologies in web development. I enjoy
+            creating sleek, responsive, and mobile websites and web applications
+            to improve the lives of users. Currently, I am focusing on front-end
+            development, with a goal to become a full-stack develor. Please
+            check out some of my projects below.
           </p>
         </Fade>
       </article>
