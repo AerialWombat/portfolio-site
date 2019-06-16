@@ -12,10 +12,9 @@ const About = () => {
           <h1 className={styles.header}>ABOUT ME</h1>
           <p>
             Hi! I'm a web developer from Richmond, Virginia. I'm passionate in
-            learning about the latest technologies in web development. I enjoy
-            creating sleek, responsive, and mobile websites and web applications
-            to improve the lives of users. Currently, I am focusing on front-end
-            development, with a goal to become a full-stack develor. Please
+            improving my skills and learning about the latest technologies in
+            web development. I enjoy creating sleek, responsive mobile-friendly
+            websites and web applications to improve the lives of users. Please
             check out some of my projects below.
           </p>
         </Fade>
