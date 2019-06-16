@@ -40,7 +40,7 @@ const About = () => {
           </div>
           <p className={styles.learning}>
             Currently learning&nbsp;
-            <span> Node.js, Express, & PostgreSQL</span>
+            <span> Websockets & Socket.IO</span>
           </p>
         </Fade>
       </article>
