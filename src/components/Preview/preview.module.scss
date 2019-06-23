@@ -7,24 +7,24 @@
   .projectImg {
     position: relative;
 
-    &:before {
-      content: "";
-      top: 0;
-      left: 0;
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      background-color: rgba(255, 173, 64, 0.15);
-      z-index: 98;
-      opacity: 1;
-      transition: all 0.5s ease;
-    }
+    // &:before {
+    //   content: "";
+    //   top: 0;
+    //   left: 0;
+    //   position: absolute;
+    //   height: 100%;
+    //   width: 100%;
+    //   background-color: rgba(255, 173, 64, 0.15);
+    //   z-index: 98;
+    //   opacity: 1;
+    //   transition: all 0.5s ease;
+    // }
 
-    &:hover {
-      &:before {
-        opacity: 0;
-      }
-    }
+    // &:hover {
+    //   &:before {
+    //     opacity: 0;
+    //   }
+    // }
 
     div:first-child {
       max-height: 500px;
