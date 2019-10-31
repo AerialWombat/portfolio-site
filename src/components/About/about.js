@@ -30,6 +30,7 @@ const About = () => {
             <SkillIcon iconType="html5" iconSize="2.5em" />
             <SkillIcon iconType="css3" iconSize="2.5em" />
             <SkillIcon iconType="javascript" iconSize="2.5em" />
+            <SkillIcon iconType="jquery" iconSize="2.5em" />
             <SkillIcon iconType="react" iconSize="2.5em" />
             <SkillIcon iconType="sass" iconSize="2.5em" />
             <SkillIcon iconType="git" iconSize="2.5em" />
@@ -37,7 +38,6 @@ const About = () => {
             <SkillIcon iconType="node" iconSize="2.5em" />
             <SkillIcon iconType="express" iconSize="2.5em" />
             <SkillIcon iconType="postgre" iconSize="2.5em" />
-            <SkillIcon iconType="DiJqueryLogo" iconSize="2.5em" />
           </div>
           <p className={styles.learning}>
             Currently learning&nbsp;

@@ -9,7 +9,7 @@ import {
   FaNpm,
   FaNodeJs,
 } from "react-icons/fa"
-import { DiPostgresql } from "react-icons/di"
+import { DiPostgresql, DiJqueryLogo } from "react-icons/di"
 import { IconContext } from "react-icons"
 
 import styles from "./skillIcon.module.scss"
@@ -42,6 +42,7 @@ const icons = {
   node: FaNodeJs,
   postgre: DiPostgresql,
   express: DiExpress,
+  jquery: DiJqueryLogo,
 }
 
 const getIconText = iconType => {
@@ -66,6 +67,8 @@ const getIconText = iconType => {
       return "PostgreSQL"
     case "express":
       return "Express"
+    case "jquery":
+      return "jQuery"
     default:
       break
   }
