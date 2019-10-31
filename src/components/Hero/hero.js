@@ -18,7 +18,7 @@ const Hero = () => {
       <Header />
       <div className={styles.heroContent}>
         <h1 className={styles.title}>
-          <span className={styles.firstLetter}>A</span>DRIAN{" "}
+          <span className={styles.firstLetter}>A</span>DRIAN
           <span className={styles.firstLetter}>Z</span>HAN
         </h1>
         <h2 className={styles.subtitle}>WEB DEVELOPER</h2>
@@ -44,7 +44,7 @@ const Hero = () => {
               <IconContext.Provider value={{ size: "1.5em" }}>
                 <FaMapMarkerAlt />
               </IconContext.Provider>
-              <span className={styles.contactLabel}>Richmond, VA</span>
+              <span className={styles.contactLabel}>Woodbridge, VA</span>
             </a>
           </li>
           <li>

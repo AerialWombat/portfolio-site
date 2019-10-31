@@ -11,7 +11,7 @@ const About = () => {
         <Fade top duration={1000} distance="10%">
           <h1 className={styles.header}>ABOUT ME</h1>
           <p>
-            Hi! I'm a web developer from Richmond, Virginia. I'm passionate in
+            Hi! I'm a web developer from Woodbridge, Virginia. I'm passionate in
             improving my skills and learning about the latest technologies in
             web development. I enjoy creating sleek, responsive mobile-friendly
             websites and web applications to improve the lives of users. Please
@@ -37,10 +37,11 @@ const About = () => {
             <SkillIcon iconType="node" iconSize="2.5em" />
             <SkillIcon iconType="express" iconSize="2.5em" />
             <SkillIcon iconType="postgre" iconSize="2.5em" />
+            <SkillIcon iconType="DiJqueryLogo" iconSize="2.5em" />
           </div>
           <p className={styles.learning}>
             Currently learning&nbsp;
-            <span> Websockets, Socket.IO, and jQuery</span>
+            <span> Amazon Web Services (AWS)</span>
           </p>
         </Fade>
       </article>
