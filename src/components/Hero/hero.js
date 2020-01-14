@@ -36,15 +36,15 @@ const Hero = () => {
         <ul>
           <li>
             <a
-              href="https://www.google.com/maps?hl=en&q=richmond,+va"
+              href="https://www.google.com/maps/place/Chantilly,+VA"
               target="#"
               rel="noopener noreferrer"
-              aria-label="View Richmond, VA on Google Maps"
+              aria-label="View Chantilly, VA on Google Maps"
             >
               <IconContext.Provider value={{ size: "1.5em" }}>
                 <FaMapMarkerAlt />
               </IconContext.Provider>
-              <span className={styles.contactLabel}>Woodbridge, VA</span>
+              <span className={styles.contactLabel}>Chantilly, VA</span>
             </a>
           </li>
           <li>
