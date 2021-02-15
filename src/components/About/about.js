@@ -41,7 +41,7 @@ const About = () => {
           </div>
           <p className={styles.learning}>
             Currently learning&nbsp;
-            <span> Amazon Web Services (AWS)</span>
+            <span> Typescript</span>
           </p>
         </Fade>
       </article>
