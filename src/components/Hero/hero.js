@@ -44,7 +44,7 @@ const Hero = () => {
               <IconContext.Provider value={{ size: "1.5em" }}>
                 <FaMapMarkerAlt />
               </IconContext.Provider>
-              <span className={styles.contactLabel}>Chantilly, VA</span>
+              <span className={styles.contactLabel}>Woodbridge, VA</span>
             </a>
           </li>
           <li>
