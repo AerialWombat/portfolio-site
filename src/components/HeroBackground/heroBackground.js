@@ -6,7 +6,7 @@ const HeroBackground = ({ children, className }) => (
   <StaticQuery
     query={graphql`
       query {
-        desktop: file(relativePath: { eq: "hero2-dark.jpg" }) {
+        desktop: file(relativePath: { eq: "nova.jpg" }) {
           childImageSharp {
             fluid(quality: 100, maxWidth: 5472) {
               ...GatsbyImageSharpFluid_withWebp
@@ -15,7 +15,7 @@ const HeroBackground = ({ children, className }) => (
         }
       }
     `}
-    render={data => {
+    render={(data) => {
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid
       return (
