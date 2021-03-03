@@ -3,6 +3,9 @@
   "private": true,
   "description": "Portfolio site for Adrian Zhan",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.x"
+  },
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
