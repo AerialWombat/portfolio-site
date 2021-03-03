@@ -2,14 +2,15 @@ import React from "react"
 import {
   FaHtml5,
   FaCss3Alt,
+  FaFigma,
   FaGit,
-  FaJsSquare,
   FaReact,
   FaSass,
   FaNpm,
   FaNodeJs,
 } from "react-icons/fa"
 import { DiPostgresql, DiJqueryLogo } from "react-icons/di"
+import { SiJavascript, SiTypescript } from "react-icons/si"
 import { IconContext } from "react-icons"
 
 import styles from "./skillIcon.module.scss"
@@ -35,9 +36,11 @@ const icons = {
   html5: FaHtml5,
   css3: FaCss3Alt,
   git: FaGit,
-  javascript: FaJsSquare,
+  javascript: SiJavascript,
+  typescript: SiTypescript,
   react: FaReact,
   sass: FaSass,
+  figma: FaFigma,
   npm: FaNpm,
   node: FaNodeJs,
   postgre: DiPostgresql,
@@ -55,10 +58,14 @@ const getIconText = iconType => {
       return "Git"
     case "javascript":
       return "Javascript"
+    case "typescript":
+      return "Typescript"
     case "react":
       return "React"
     case "sass":
       return "SASS/SCSS"
+    case "figma":
+      return "Figma"
     case "npm":
       return "npm"
     case "node":
