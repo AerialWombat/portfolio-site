@@ -29,6 +29,7 @@ const Showcase = () => (
     `}
     render={data => {
       const thumbnailDataEdges = data.thumbnailImgs.edges
+      console.log(thumbnailDataEdges)
       return (
         <section name="projects" className={styles.container}>
           <article>
@@ -36,15 +37,15 @@ const Showcase = () => (
               <h1 className={styles.header}>PROJECTS</h1>
             </Fade>
             <ul>
-              {thumbnailDataEdges.map(imgData => {
-                const project = projects.find(
-                  projectData => projectData.imgPath === imgData.node.name
-                )
+              {projects.map(project => {
+                const fluidImg = thumbnailDataEdges.find(
+                  imgData => imgData.node.name === project.imgPath
+                ).node.childImageSharp.fluid
                 return (
                   <Preview
                     key={project.imgPath}
                     name={project.name}
-                    fluidImg={imgData.node.childImageSharp.fluid}
+                    fluidImg={fluidImg}
                     technologies={project.technologies}
                     description={project.description}
                     repoPath={project.repoPath}
