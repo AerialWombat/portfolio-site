@@ -29,7 +29,6 @@ const Showcase = () => (
     `}
     render={data => {
       const thumbnailDataEdges = data.thumbnailImgs.edges
-      console.log(thumbnailDataEdges)
       return (
         <section name="projects" className={styles.container}>
           <article>
