@@ -25,8 +25,8 @@ const DiExpress = () => {
       stroke="currentColor"
       fill="currentColor"
       stroke-width="1"
-      height="2.5em"
-      width="2.5em"
+      height="1.5em"
+      width="1.5em"
       viewBox="0 0 128 128"
       xmlns="http://w3.ord/2000/svg"
     >
