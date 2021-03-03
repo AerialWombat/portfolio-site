@@ -11,7 +11,7 @@ const About = () => {
         <Fade top duration={1000} distance="10%">
           <h1 className={styles.header}>ABOUT ME</h1>
           <p>
-            Hi! I'm a web developer based out of Chantilly, Virginia. I'm
+            Hi! I'm a web developer based out of Woodbridge, Virginia. I'm
             passionate in improving my skills and learning about the latest
             technologies in web development. I enjoy creating sleek, responsive
             mobile-friendly websites and web applications to improve the lives
