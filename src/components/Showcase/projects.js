@@ -65,6 +65,26 @@ const projects = [
     repoPath: "https://github.com/AerialWombat/open-times",
     demoPath: "https://opentimes.netlify.com/",
   },
+  {
+    name: "Legends of Runeterra Dynamic Cheat Sheet",
+    technologies: [
+      "html5",
+      "css3",
+      "sass",
+      "javascript",
+      "react",
+      "typescript",
+      "figma",
+      "node",
+      "git",
+      "github",
+    ],
+    description:
+      "A mobile-first, single-page application using React and Typescript utilizing Riot Games’ static assets and data to display a customizable, filterable view of cards to play around.",
+    imgPath: "lor-cheatsheet",
+    repoPath: "https://github.com/AerialWombat/lor-cheatsheet",
+    demoPath: "https://lor-cheatsheet.netlify.app/",
+  },
 ]
 
 export default projects

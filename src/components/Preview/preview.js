@@ -3,6 +3,7 @@ import Img from "gatsby-image"
 import {
   FaHtml5,
   FaCss3Alt,
+  FaFigma,
   FaGit,
   FaGithubSquare,
   FaJsSquare,
@@ -13,6 +14,7 @@ import {
 } from "react-icons/fa"
 import { DiPostgresql } from "react-icons/di"
 import { IconContext } from "react-icons"
+import { SiTypescript } from "react-icons"
 import Fade from "react-reveal/Fade"
 
 import styles from "./preview.module.scss"
@@ -40,10 +42,12 @@ const icons = {
   git: FaGit,
   github: FaGithubSquare,
   javascript: FaJsSquare,
+  typescript: SiTypescript,
   react: FaReact,
   sass: FaSass,
   npm: FaNpm,
   node: FaNodeJs,
+  figma: FaFigma,
   postgre: DiPostgresql,
   express: DiExpress,
 }
